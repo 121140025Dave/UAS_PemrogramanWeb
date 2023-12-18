@@ -69,6 +69,8 @@ $result = $conn->query($query);
     <img id="albumPreview" alt="Album Cover" style="max-width: 200px; max-height: 200px;"><br>
 
     <button type="button" onclick="submitMusic()">Submit Lagu</button>
+
+    <button type="button" onclick="myCustomEvent()">My Custom Event</button>
 </form>
 
 <hr>
