@@ -65,6 +65,10 @@ function submitMusic() {
     xhr.send(formData);
 }
 
+function myCustomEvent() {
+    console.log("Tombol My Custom Event diklik!");
+}
+
 function setCookie(name, value, days) {
     var expires = "";
     if (days) {
